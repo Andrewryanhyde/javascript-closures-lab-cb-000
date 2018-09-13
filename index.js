@@ -4,7 +4,7 @@ const app = "I don't do much."
 function bumpCounter() {
   let counter = 0;
 
-  function addBumps() {
+  function addBump() {
     counter += 1;
   };
 
@@ -13,7 +13,7 @@ function bumpCounter() {
   };
 
   return addBump;
-  return getBump;
+  return getBumps;
 }
 
 
