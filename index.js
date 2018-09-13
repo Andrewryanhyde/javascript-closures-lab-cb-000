@@ -11,4 +11,7 @@ function bumpCounter() {
   function getBump() {
     counter;
   };
+
+  return addBump;
+  return getBump;
 }
