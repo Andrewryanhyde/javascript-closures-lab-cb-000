@@ -9,7 +9,7 @@ function bumpCounter() {
   };
 
   function getBumps() {
-    counter;
+    return counter;
   };
 
   return {
